@@ -1,0 +1,9 @@
+.container_card :global .box_content {
+  display: flex;
+  gap: 1rem;
+}
+.container_card :global .box_content .box_convert {
+  gap: 1rem;
+  display: flex;
+  position: relative;
+}

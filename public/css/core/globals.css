@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DB Helvethaica X';
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  color: #000;
+}

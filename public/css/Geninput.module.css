@@ -1,0 +1,19 @@
+.Geninput :global {
+  border: 0.1rem solid #c7c7c7;
+  padding: 0.8rem 1.6rem;
+  max-width: 30rem;
+  border-radius: 1rem;
+}
+.Geninput :global .container_input {
+  width: 100%;
+  height: auto;
+}
+.Geninput :global .container_input .input_label {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.Geninput :global .container_input .input_value {
+  width: 100%;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
