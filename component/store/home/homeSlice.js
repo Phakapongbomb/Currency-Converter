@@ -2,6 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     amount: '',
+    from: 'USD',
+    to: 'SGD',
 };
 
 export const counterSlice = createSlice({

@@ -1,3 +1,47 @@
+.container_card :global {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 86.1rem;
+  padding: 3.2rem;
+  border-radius: 2.2rem;
+  gap: 2rem;
+  margin: 0 auto;
+}
+.container_card :global .menu_bar {
+  display: flex;
+  width: 100%;
+  border: 0.1rem solid #c7c7c7;
+  border-radius: 5rem;
+  height: auto;
+  max-height: 5.4rem;
+  padding: 0.8rem;
+  justify-content: space-between;
+}
+.container_card :global .menu_bar .menu_btn {
+  height: 3.6rem;
+  background-color: transparent;
+  width: 100%;
+  max-width: 18.8rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #636E82;
+}
+.container_card :global .menu_bar .menu_btn .ic_convert {
+  height: 100%;
+}
+.container_card :global .menu_bar .menu_btn .text_convert {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+.container_card :global .menu_bar .menu_btn.active {
+  color: #fff;
+  background-color: #636E82;
+}
 .container_card :global .box_content {
   display: flex;
   gap: 1rem;
@@ -6,4 +50,59 @@
   gap: 1rem;
   display: flex;
   position: relative;
+}
+.container_card :global .box_content .box_convert .swip_currency {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.1rem solid #c7c7c7;
+  border-radius: 50%;
+}
+.container_card :global .group_value {
+  display: flex;
+  justify-content: space-between;
+}
+.container_card :global .group_value.before {
+  justify-content: flex-end;
+}
+.container_card :global .group_value .box_btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 48.4rem;
+  gap: 1.6rem;
+}
+.container_card :global .group_value .box_btn .btn_convert {
+  background-color: blue;
+  max-width: 23.4rem;
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  border-radius: 1rem;
+  height: 100%;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 100%;
+}
+.container_card :global .group_value .box_btn .container_btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container_card :global .group_value .box_btn .container_btn .btn {
+  width: 100%;
+  max-width: 23.4rem;
+  background-color: blue;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+}
+.container_card :global .group_value .box_btn .text_detail {
+  font-size: 1.6rem;
 }

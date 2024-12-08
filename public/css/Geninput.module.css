@@ -1,19 +1,56 @@
-.Geninput :global {
-  border: 0.1rem solid #c7c7c7;
-  padding: 0.8rem 1.6rem;
-  max-width: 30rem;
-  border-radius: 1rem;
-}
 .Geninput :global .container_input {
   width: 100%;
   height: auto;
 }
-.Geninput :global .container_input .input_label {
-  font-size: 2rem;
-  line-height: 2rem;
+.Geninput :global .container_input.from,
+.Geninput :global .container_input.to,
+.Geninput :global .container_input.normal {
+  border: 0.1rem solid #c7c7c7;
+  padding: 0.8rem 1.6rem;
+  max-width: 30rem;
+  width: 100%;
+  border-radius: 1rem;
+  height: 100%;
+  display: block;
 }
-.Geninput :global .container_input .input_value {
+.Geninput :global .container_input.from {
+  padding: 0.8rem 4rem 0.8rem 1.6rem;
+}
+.Geninput :global .container_input.to {
+  padding: 0.8rem 1.6rem 0.8rem 4rem;
+}
+.Geninput :global .container_input.text .inp_box {
+  display: flex;
+  font-size: 3rem;
+  line-height: 3rem;
+  align-items: center;
+}
+.Geninput :global .container_input.text .input_label {
+  font-size: 1.4rem;
+}
+.Geninput :global .container_input.text .input_value {
   width: 100%;
   font-size: 2.4rem;
   line-height: 2.4rem;
+}
+.Geninput :global .container_input.dropdown {
+  position: relative;
+}
+.Geninput :global .container_input.dropdown .input_label {
+  font-size: 1.4rem;
+}
+.Geninput :global .container_input.dropdown .input_value {
+  width: 100%;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+.Geninput :global .container_input.dropdown .container_dropdown {
+  top: calc(100% + 1rem);
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.06);
 }
